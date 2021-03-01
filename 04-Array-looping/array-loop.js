@@ -13,14 +13,14 @@ arr1.forEach(function(item){
     
 })
 
-console.log(`In the array, we ${num} number of numbers and ${str} number of strings.`)
+console.log(`In the array, we have ${num} number of numbers and ${str} number of strings.`)
 
 function counter(a,b){
 if(a>b){
-    console.log(`we a lot number of character type numbers i.e. ${a}`)
+    console.log(`we have a lot number of character type numbers i.e. ${a}`)
 }
 else if(a<b){
-    console.log(`we a lot number of character type strings i.e. ${b}`)
+    console.log(`we have a lot number of character type strings i.e. ${b}`)
 }
 
 else {
