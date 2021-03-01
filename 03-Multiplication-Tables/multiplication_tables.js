@@ -8,3 +8,13 @@ function multiply_By9(){
 }
 
 multiply_By9();
+
+function table(a){
+    var result = 0;
+   for(i=1 ; i <= 9 ; i++){
+    result = a * i;
+    console.log(`${a} * ${i} = ${result}`);
+   }
+}
+
+table(5);
